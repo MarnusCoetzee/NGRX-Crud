@@ -12,6 +12,47 @@
   </mat-toolbar>
 </div>
 <div class="heading-info">
-  <p>Welcome back!</p>
-  <p>Please log in to continue</p>
+  <p>Sign up to experience the power of the ultimate office manager</p>
+</div>
+
+<div class="form-block">
+  <form [formGroup]="form">
+    <mat-form-field appearance="fill">
+      <mat-label>Email</mat-label>
+      <input
+        matInput
+        type="email"
+        placeholder="Email"
+        formControlName="email"
+      />
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Password</mat-label>
+      <input
+        matInput
+        type="password"
+        placeholder="Password"
+        formControlName="password"
+      />
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Confirm Password</mat-label>
+      <input
+        matInput
+        type="password"
+        placeholder="Confirm Password"
+        formControlName="confirmPassword"
+      />
+    </mat-form-field>
+  </form>
+  <div class="submit-btn">
+    <button mat-raised-button color="primary" [disabled]="form.invalid">
+      Let's Get Started
+    </button>
+  </div>
+  <div class="submit-btn">
+    <button mat-raised-button>
+      <img src="../../../../../../assets/images/google-logo.svg" />
+    </button>
+  </div>
 </div>

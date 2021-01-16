@@ -3,3 +3,35 @@
     background-color: #fafafa;
   }
 }
+
+.heading-info {
+  margin-left: 3.5rem;
+  width: 60%;
+  p {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+.form-block {
+  margin-top: 5vh;
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+  mat-form-field {
+    width: 100%;
+  }
+}
+
+.submit-btn {
+  text-align: center;
+  button {
+    width: 100%;
+    height: 46px;
+    max-width: 300px;
+    margin-bottom: 15px;
+  }
+  img {
+    max-height: 36px;
+  }
+}
