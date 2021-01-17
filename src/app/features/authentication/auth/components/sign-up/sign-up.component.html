@@ -1,14 +1,17 @@
 <div class="heading">
   <mat-toolbar>
-    <button
-      routerLink="/login"
-      mat-icon-button
-      class="example-icon"
-      aria-label="Example icon-button with menu icon"
+    <mat-toolbar-row> </mat-toolbar-row>
+    <mat-toolbar-row>
+      <button
+        routerLink="/login"
+        mat-icon-button
+        class="example-icon"
+        aria-label="Example icon-button with menu icon"
+      >
+        <mat-icon>keyboard_backspace</mat-icon>
+      </button>
+      <span>Create Your Account</span></mat-toolbar-row
     >
-      <mat-icon>keyboard_backspace</mat-icon>
-    </button>
-    <span>Create Your Account</span>
   </mat-toolbar>
 </div>
 <div class="heading-info">
@@ -55,4 +58,8 @@
       <img src="../../../../../../assets/images/google-logo.svg" />
     </button>
   </div>
+</div>
+
+<div class="tos">
+  <app-terms-of-service></app-terms-of-service>
 </div>

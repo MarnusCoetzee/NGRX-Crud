@@ -8,6 +8,7 @@ import { StartComponent } from './components/start/start.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { TermsOfServiceComponent } from './components/terms-of-service/terms-of-service.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     StartComponent,
     SignInComponent,
     SignUpComponent,
+    TermsOfServiceComponent,
   ],
   imports: [
     CommonModule,
